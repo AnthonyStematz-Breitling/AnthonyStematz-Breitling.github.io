@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(184, 184, 228);
+    background-image:url(./purple.jpg);
+    background-repeat: repeat-y;
+    background-position: left;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.dropbttn{
+    background-color:rgb(76, 76, 163);
+    color:white;
+    font-weight: bolder;
+    font-size:18px;
+    border:none;
+    padding: 14px;
+}
+.dropdown{
+    position: relative;
+    display:inline-block;
+}
+.dropdown-content{
+    display:none;
+    background-color: rgb(255, 148, 136);
+    text-align: center;
+    font-size:18px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index:1;
+}
+.dropdown-content a{
+    color:rgb(83, 83, 83);
+    display: block;
+    padding:14px;
+}
+.dropdown-content a:hover {background-color: rgb(233, 92, 76);}
+.dropdown:hover .dropdown-content {display:block;}
+.dropdown:hover .dropbttn {background-color:rgb(145, 145, 255);}
+h1{
+   font-size:35px;
+   text-align: center; 
+   padding-top:40px;
+}
+#identity{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(63, 30, 63);
+}
+p{
+    font-weight: bold;
+} 
+ul{
+    font-size: 16px;
+    list-style-type: circle;
+}
+img{
+    float:right;
+}
+#u{
+    color:rgb(255, 148, 8);
+}
+#t{
+    color:rgba(37, 36, 36, 0.808);
+}
+#r{
+    color:red;
+}
